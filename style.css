@@ -1,0 +1,120 @@
+.container{
+    display: row;
+    background-color: hsl(0, 0%, 95%);
+    padding: 50px;
+}
+.card-1{
+    padding: 50px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.card-2{
+    padding: 50px;
+    background-color: hsl(184, 100%, 22%);
+}
+.card-3{
+    padding: 50px;
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+h1{
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.btn-1{
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+    height: 40px;
+    width: 70%;
+    border-radius: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+.btn-2{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    height: 40px;
+    width: 70%;
+    border-radius: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+.btn-3{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    height: 40px;
+    width: 70%;
+    border-radius: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+}
+.btn-2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.btn-3:hover{
+ background-color: hsl(179, 100%, 13%);
+ color: hsl(0, 0%, 95%);
+}
+@media screen and (min-width:1440px) {
+    body{
+    background-color: hsl(0, 0%, 95%);;
+    }
+    .container{
+        display: flex;
+        padding-left: 0px;
+        width: 100%;
+        padding-top: 250px;
+        padding-left: 153px;
+        
+    }
+    .card-1{
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+        max-width: 100%;
+        width: 250px;
+        height: 400px;
+        
+    }
+    .card-2{
+        max-width: 100%;
+        width: 250px;
+        height: 400px;
+    }
+    .card-3{
+    padding: 50px;
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    width: 250px;
+    }
+    .btn-1{
+        background-color: hsl(0, 0%, 95%);
+        color:hsl(31, 77%, 52%);
+        height: 40px;
+        width: 70%;
+        border-radius: 30px;
+        border-color: white;
+        cursor: pointer;
+        
+    }
+    
+}
